@@ -1,0 +1,14 @@
+.card-body p{
+    color: gray;
+    margin: 0;
+}
+.card-body input{
+    width: 100%;
+    padding:5px;
+    background:transparent;
+    border: 1px solid gray;
+    outline: nome;
+}
+.sTittle{
+    color: #fecd1a;
+}

@@ -1,0 +1,97 @@
+
+.loginboxlayout {
+    width: 320px;
+    height: 420px;
+    background: #444;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avenger {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginboxlayout p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginboxlayout input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginboxlayout input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginboxlayout input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginboxlayout input[type="submit"]:hover {
+    background: #e76d6dab;
+}
+
+
+.g-icon{
+    height: 30px;
+    width: 30px;
+    margin-right: 60px;
+}
+.google-login button{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 30px;
+    background: #bce6eb;
+    color: black;
+    outline: none;
+    margin-bottom: 7px;
+}
+.google-login button:hover{
+    background: #4cedff;  
+}
+.create-account{
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;   
+}
+.create-account span{
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+

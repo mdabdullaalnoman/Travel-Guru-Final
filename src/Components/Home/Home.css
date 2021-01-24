@@ -1,0 +1,13 @@
+.bg-gradient{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(https://i.imgur.com/Wgk2bYt.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+    position: relative; 
+    background-position: center;  
+    
+}
+#tsparticles{
+    position: absolute;
+}

@@ -1,0 +1,40 @@
+.carousel-card img{
+    position: relative;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-card h3{
+    position: absolute;
+    color: white;
+    bottom: -10px;
+}
+@media screen and (min-width:320px){
+    .carousel-card img{
+        position: relative;
+        height: 200px;
+    }
+}
+@media screen and (min-width:600px){
+    .carousel-card img{
+        position: relative;
+        height: 300px;
+    }
+}
+/* @media screen and (min-width:992px){
+    .slider-info{
+        margin-top: 11%;
+       }
+}
+@media screen and (min-width:1200){
+    .slider-info{
+        margin-top: 11%;
+       }
+} */
+/* .slider-info{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100vw;
+    margin: 0 auto;
+} */

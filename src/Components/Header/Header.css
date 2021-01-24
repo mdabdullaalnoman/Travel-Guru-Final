@@ -1,0 +1,144 @@
+
+nav.navbar {
+    background:none;
+    padding: 0;
+    margin: 0;
+  }
+  .brand-title img {
+    filter:brightness(600%);
+    width:100px;
+    height: 60px;
+  }
+
+  ul li .nav-link input {
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.698);
+    padding:3px;
+  }
+  ul li .nav-link button {background-image: linear-gradient(to right, #B2FEFA 0%, #0ED2F7  51%, #B2FEFA  100%)}
+  ul li .nav-link button:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+  ul li .nav-link button {
+    margin-left:3px;
+     padding: 3px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     border-radius: 5px;
+     display: inline-block;
+     border: none;
+  }
+  
+  .navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2.2rem 0rem;
+  }
+  
+  .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 3.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: rgba(0,0,0,.5);
+    border-color:whitesmoke;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath fill='grey' d='M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z'%3E%3C/path%3E%3C/svg%3E");
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-size: 100% 100%;
+  }
+  
+  ul.links-list {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+  
+  li.nav-item {
+    list-style-type: none;
+    margin-left: 0px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  nav a.is-active {
+    color: rgb(169, 245, 28);
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .navbar-toggler {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .navbar-toggler {
+      display: block;
+    }
+  
+    div.navbar-links {
+      margin-right: 0;
+      position: absolute;
+      width: 75%;
+      background: rgb(26, 24, 24);
+      z-index: 99;
+      margin-top: 3rem;
+      float: right;
+      right: 0;
+      height: 100vh;
+      transition: all ease-in-out 0.3s;
+      align-self: flex-start;
+      border-top: 2px solid rgb(255, 247, 247);
+    }
+  
+    ul.links-list {
+      display: flex;
+      flex-direction: column;
+      padding-left: 0;
+    }
+  
+    .navbar-links.menu-collapse {
+      margin-right: -75%;
+      width: 0;
+      overflow: hidden;
+    }
+  
+    li.nav-item {
+      padding-left: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-left: 0;
+    }
+  
+    li.nav-item a.nav-link {
+        padding: 5px 10px;
+    }
+  
+    .menu-collapse {
+      margin-right: -75%;
+      width: 0;
+      overflow: hidden;
+    }
+  }
+
+  
