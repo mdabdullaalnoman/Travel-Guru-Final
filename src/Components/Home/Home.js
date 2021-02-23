@@ -7,7 +7,7 @@ import Particles from "react-tsparticles";
 const Home = () => {
     return (
         <div className="bg-gradient">
-            <Particles
+            {/* <Particles
         id="tsparticles"
         options={{
           background: {
@@ -82,12 +82,12 @@ const Home = () => {
             },
             size: {
               random: true,
-              value: 5,
+              value: 55,
             },
           },
           detectRetina: true,
         }}
-      />
+      /> */}
             <Header></Header>
             <DataLoad></DataLoad>
         </div>

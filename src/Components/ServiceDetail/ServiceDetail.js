@@ -34,18 +34,18 @@ const ServiceDetail = () => {
                         <div className="card">
                             <div className="card-body">
                                 <p className="">Origin</p>
-                                <input defaultValue="Dhaka" type="text" name="" id=""/>
+                                <input defaultValue="Dhaka" type="text" required name="" id=""/>
                                 <p className="">Destination</p>
-                                <input defaultValue={info.tittle} type="text" name="" id=""/>
+                                <input defaultValue={info.tittle} type="text" required name="" id=""/>
 
                                 <div className="row">
                                     <div className="col-6">
                                         <p>Form</p>
-                                        <input type="date" name="" id=""/>
+                                        <input type="date" required name="" id=""/>
                                     </div>
                                     <div className="col-6">
                                         <p>To</p>
-                                        <input type="date" name="" id=""/>                                     
+                                        <input type="date" required name="" id=""/>                                     
                                    </div>                                  
                                 </div><br/>
                                 <Link to="/hotel"><button className="btn btn-warning w-100"> start booking</button></Link>
