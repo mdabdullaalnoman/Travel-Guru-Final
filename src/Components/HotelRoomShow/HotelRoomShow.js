@@ -22,12 +22,11 @@ const HotelRoomShow = ({ roomData }) => {
                                 <p>{roomData.detail}</p><br />
                                 <p>{roomData.rating}</p><br />
                                 <p>{roomData.price}</p><br />
-
                             </div>
                         </div>
                     </div>
                     <div className="col-12 col-md-4">
-
+                        <h1 className="text-secondary">Google Map</h1>
                     </div>
                 </div>
             </div>
