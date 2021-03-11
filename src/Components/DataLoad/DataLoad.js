@@ -18,7 +18,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
 const DataLoad = () => {
     const [showData, setShowData ] = useState([]);
-    console.log(showData);
+   
     const handelShowData = (data) => {
         setShowData([data]);
     }

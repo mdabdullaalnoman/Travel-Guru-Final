@@ -33,9 +33,9 @@ const [hotelInfo , setHotelInfo ] = useState([]);
               <HotelRoom></HotelRoom>
             </Route>
 
-            <PrivateRoute  path="/booking:sliderid">
+            <Route  path="/booking:sliderid">
               <ServiceDetail></ServiceDetail>
-            </PrivateRoute>
+            </Route>
 
             <Route path="/login">
               <Login></Login>

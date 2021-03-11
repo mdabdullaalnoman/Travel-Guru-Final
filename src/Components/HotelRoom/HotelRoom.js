@@ -8,7 +8,7 @@ const HotelRoom = () => {
     const [roomData , setRoomData] = useState([]);
 
     useEffect( () => {
-        const roomInfo = hotel.filter (data => data.placeId == hotelInfo.id )
+        const roomInfo = hotel.filter (data => data.placeId === hotelInfo.id )
         setRoomData(roomInfo);
     } , [])
 
