@@ -1,14 +1,19 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { UserContext } from '../../App';
-import hotel from '../../FakeData/Hotel';
+import Hotel from '../../FakeData/Hotel';
 import HotelRoomShow from '../HotelRoomShow/HotelRoomShow';
+import { HotelInfo } from '../ServiceDetail/ServiceDetail';
 
 const HotelRoom = () => {
-    const [hotelInfo , setHotelInfo ] = useContext(UserContext);
+    // const [hotelInfo , setHotelInfo ] = useContext(UserContext);
+    const [hotel , setHotel] = useContext(UserContext);
+    console.log(hotel);
     const [roomData , setRoomData] = useState([]);
+console.log(roomData);
 
     useEffect( () => {
-        const roomInfo = hotel.filter (data => data.placeId === hotelInfo.id )
+        const roomInfo = Hotel.filter (data => data.placeId === hotel.id )
+        console.log(roomInfo);
         setRoomData(roomInfo);
     } , [])
 

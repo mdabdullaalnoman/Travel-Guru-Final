@@ -13,7 +13,7 @@ if (firebase.apps.length === 0) {
 
 const Login = () => {
     const [hotelInfo, setHotelInfo] = useContext(UserContext);
-
+    console.log(hotelInfo);
     const history = useHistory();
     const location = useLocation();
     const { from } = location.state || { from: { pathname: "/" } };

@@ -18,9 +18,10 @@ export const  UserContext = createContext();
 function App() {
 
 const [hotelInfo , setHotelInfo ] = useState([]);
+const [hotel , setHotel ] = useState([]);
 
   return (
-  <UserContext.Provider value={[hotelInfo , setHotelInfo]}>
+  <UserContext.Provider  value={[hotelInfo , setHotelInfo] , [hotel , setHotel]}>
         <Router>
           <Switch>
 
@@ -28,10 +29,9 @@ const [hotelInfo , setHotelInfo ] = useState([]);
                 <Home></Home>
             </Route>
 
-            
-            <Route path="/hotel">
+            <PrivateRoute path="/hotel">
               <HotelRoom></HotelRoom>
-            </Route>
+            </PrivateRoute>
 
             <Route  path="/booking:sliderid">
               <ServiceDetail></ServiceDetail>

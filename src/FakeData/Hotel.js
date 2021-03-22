@@ -1,4 +1,4 @@
-const hotel = [
+const Hotel = [
     {
         placeId: 1,
         placeTittle: 'SundarBan',
@@ -84,4 +84,4 @@ const hotel = [
         img:'https://i.ibb.co/hV6D9zY/hotel6.webp'
     }
 ]
-export default hotel;
+export default Hotel;
